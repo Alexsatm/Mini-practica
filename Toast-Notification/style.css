@@ -47,6 +47,14 @@ button {
     align-items: center;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     position: relative;
+    transform: translateX(100%);
+    animation: moveleft 0.5s linear forwards;
+}
+
+@keyframes moveleft {
+    100% {
+        transform: translateX(0);
+    }
 }
 
 .toast ion-icon {
@@ -78,4 +86,12 @@ button {
     100% {
         width: 0;
     }
+}
+
+.toast.error::after {
+    background-color: red;
+}
+
+.toast.invalid::after {
+    background-color: orange;
 }
