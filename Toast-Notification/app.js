@@ -8,4 +8,16 @@ const showToast = (msg) => {
     toast.classList.add('toast');
     toast.innerHTML = msg;
     toastsBox.appendChild(toast)
+
+    if (msg.includes('ошибку')) {
+        toast.classList.add('error');
+    }
+
+    if (msg.includes('Неверный')) {
+        toast.classList.add('invalid')
+    }
+
+    setTimeout(() => {
+        toast.remove()
+    }, 6000)
 }
