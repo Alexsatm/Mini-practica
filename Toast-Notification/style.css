@@ -46,6 +46,7 @@ button {
     display: flex;
     align-items: center;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    position: relative;
 }
 
 .toast ion-icon {
@@ -60,4 +61,21 @@ button {
 
 .toast.invalid ion-icon {
     color: orange;
+}
+
+.toast::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 100%;
+    background-color: green;
+    animation: anim 5s linear forwards
+}
+
+@keyframes anim {
+    100% {
+        width: 0;
+    }
 }
