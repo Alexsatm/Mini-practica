@@ -45,3 +45,9 @@ button {
     align-items: center;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
+
+.toast ion-icon {
+    margin: 0 20px;
+    font-size: 35px;
+    color: green;
+}
