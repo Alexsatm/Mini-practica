@@ -11,5 +11,20 @@
         <input type="password" placeholder="password" id="password">
         <img src="img/eye-close.png" alt="eye-close" id="eyeicon">
     </div>
+
+    <script>
+        let eyeicon = document.getElementById('eyeicon')
+        let password = document.getElementById('password');
+
+        eyeicon.onclick = () => {
+            if(password.type == 'password') {
+                password.type = 'text';
+                eyeicon.src = 'img/eye-open.png';
+            } else {
+                password.type = 'password';
+                eyeicon.src = 'img/eye-close.png';
+            }
+        }
+    </script>
 </body>
 </html>
