@@ -2,3 +2,4 @@
 1. Quote-Generator - https://alexsatm.github.io/Mini-practica/Quote-Generator/
 2. Toast-Notification - https://alexsatm.github.io/Mini-practica/Toast-Notification/
 3. Popup - https://alexsatm.github.io/Mini-practica/Popup/
+4. Hide-And-Show-Password - https://alexsatm.github.io/Mini-practica/Hide-And-Show-Password/
