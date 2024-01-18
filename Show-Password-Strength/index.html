@@ -18,6 +18,7 @@
         let pass = document.getElementById('password');
         let msg = document.getElementById('message');
         let str = document.getElementById('strenght');
+        let btn = document.querySelector('button');
 
         pass.addEventListener('input', () => {
             if(pass.value.length > 0) {
@@ -43,6 +44,13 @@
                 pass.style.borderColor = '#269730';
                 msg.style.color = '#269730';
             }
+        })
+
+        btn.addEventListener('click', () => {
+            pass.value = '';
+            pass.style.borderColor = '';
+            msg.style.color = '';
+            str.innerHTML = '';
         })
     </script>
 </body>
