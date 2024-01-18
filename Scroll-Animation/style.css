@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #636e72;
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+
+}
+
+.blue {
+    background-color: #4585f4;
+}
+
+.red {
+    background-color: #db4437;
+}
+
+.yellow {
+    background-color: #f4b400;
+}
+
+.green {
+    background-color: #0f9d58;
+}
