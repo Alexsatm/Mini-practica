@@ -29,3 +29,30 @@
     color: #fff;
     background-color: transparent;
 }
+
+button {
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+
+button img {
+    width: 35px;
+}
+
+#message {
+    position: absolute;
+    bottom: -30px;
+    font-size: 15px;
+    color: #fff;
+}
+
+::placeholder {
+    font-size: 15px;
+}
