@@ -26,13 +26,13 @@
             </div>
             <div class="input-group">
                 <label for="email">Электронная почта</label>
-                <input type="email" id="email" required>
+                <input type="email" id="email" required onkeyup="validateEmail()">
                 <span id="email-error"></span>
             </div>
             <div class="input-group">
                 <label for="tel">Номер телефона</label>
                 <input type="tel" id="phone" required onkeyup="validatePhone()">
-                <span id="tel-error"></span>
+                <span id="phone-error"></span>
             </div>
 
             <button>Зарегистрироваться</button>
