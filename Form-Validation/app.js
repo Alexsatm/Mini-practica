@@ -2,6 +2,7 @@ const nameError = document.querySelector('#name-error');
 const passwordError = document.querySelector('#password-error');
 const emailError = document.querySelector('#email-error');
 const phoneError = document.querySelector('#phone-error');
+const submitError = document.querySelector('#submit-error');
 
 const validateName = () => {
     const name = document.querySelector('#name').value;
@@ -57,4 +58,11 @@ const validateEmail = () => {
 
     emailError.innerHTML = '<ion-icon name="checkmark-circle-outline"></ion-icon>';
     return true;
+}
+
+function validateForm() {
+    if(!validateName() || !validatePhone()|| !validateEmail()) {
+        submitError.innerHTML = 'Заполните все поля';
+        return false
+    }
 }
