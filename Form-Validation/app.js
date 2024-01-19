@@ -29,12 +29,7 @@ const validatePhone = () => {
         return false;
     }
 
-    if (phone.lenght !== 11) {
-        phoneError.innerHTML = 'Номер должен быть из 11 цифр';
-        return false;
-    }
-
-    if (!phone.match(/^[0-9]{11}$/)) {
+    if (!phone.match(/^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/)) {
         phoneError.innerHTML = 'Только цифры';
         return false;
     }
