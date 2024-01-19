@@ -45,7 +45,7 @@ h1 {
 form input {
     width: 500px;
     height: 55px;
-    padding: 7px 99px 8px 0px;
+    padding: 7px 99px 8px 10px;
     border-radius: 12px;
     border: 1px solid #CBD5E0;
     background-color: #F7FAFC;
@@ -83,4 +83,12 @@ span {
     position: absolute;
     right: 12px;
     top: 45px;
+}
+
+ion-icon {
+    color: #3ab528;
+    font-size: 33px;
+    position: absolute;
+    right: 6px;
+    top: -3px;
 }

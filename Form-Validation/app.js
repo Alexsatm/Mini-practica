@@ -8,14 +8,14 @@ const validateName = () => {
 
     if (name.lenght == 0) {
         nameError.innerHTML = 'Требуется имя';
-        return false
+        return false;
     }
 
     if (!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)) {
         nameError.innerHTML = 'Напишите полное имя';
-        return false
+        return false;
     }
 
-    nameError.innerHTML = 'верно';
-    return true
+    nameError.innerHTML = '<ion-icon name="checkmark-circle-outline"></ion-icon>';
+    return true;
 }
