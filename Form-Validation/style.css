@@ -25,7 +25,7 @@ form {
     background-color: #fff;
     padding: 60px 20px;
     border-radius: 30px;
-    row-gap: 45px;
+    row-gap: 30px;
 }
 
 h1 {
@@ -34,11 +34,12 @@ h1 {
     color: #1C4532;
 }
 
-form div {
+.input-group {
     display: flex;
     justify-content: center;
     flex-direction: column;
     row-gap: 10px;
+    position: relative;
 }
 
 form input {
