@@ -47,7 +47,7 @@ const validateEmail = () => {
     const email = document.querySelector('#email').value;
 
     if (email.lenght == 0) {
-        email.innerHTML = 'Требуется почта';
+        emailError.innerHTML = 'Требуется почта';
         return false;
     }
 
@@ -58,6 +58,16 @@ const validateEmail = () => {
 
     emailError.innerHTML = '<ion-icon name="checkmark-circle-outline"></ion-icon>';
     return true;
+}
+
+const validatePassword = () => {
+    const password = document.querySelector('#password').value;
+
+    if (password.lenght == 0) {
+        passwordError.innerHTML = 'Требуется пароль';
+        return false;
+    }
+
 }
 
 function validateForm() {
