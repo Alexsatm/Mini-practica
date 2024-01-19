@@ -1,4 +1,21 @@
-const nameError = document.querySelector('name-error');
-const passwordError = document.querySelector('password-error');
-const emailError = document.querySelector('email-error');
-const telError = document.querySelector('tel-error');
+const nameError = document.querySelector('#name-error');
+const passwordError = document.querySelector('#password-error');
+const emailError = document.querySelector('#email-error');
+const telError = document.querySelector('#tel-error');
+
+const validateName = () => {
+    const name = document.querySelector('#name').value;
+
+    if (name.lenght == 0) {
+        nameError.innerHTML = 'Требуется имя';
+        return false
+    }
+
+    if (!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)) {
+        nameError.innerHTML = 'Напишите полное имя';
+        return false
+    }
+
+    nameError.innerHTML = 'верно';
+    return true
+}
