@@ -68,14 +68,13 @@ const validatePassword = () => {
         return false;
     }
 
-    if (!password.match(/(?=.*[0-9])(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z!@#$%^&*]{6,}/g)) {
+    if (!password.match(/[0-9]{8}/)) {
         passwordError.innerHTML = 'Неверно';
         return false;
     }
 
     passwordError.innerHTML = '<ion-icon name="checkmark-circle-outline"></ion-icon>';
     return true;
-
 }
 
 function validateForm() {
