@@ -50,8 +50,11 @@ const validateEmail = () => {
         return false;
     }
 
-    if (!phone.match(/^[0-9]{11}$/)) {
+    if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
         emailError.innerHTML = 'Неверная почта';
         return false;
     }
+
+    emailError.innerHTML = '<ion-icon name="checkmark-circle-outline"></ion-icon>';
+    return true;
 }
