@@ -19,3 +19,17 @@ const validateName = () => {
     nameError.innerHTML = '<ion-icon name="checkmark-circle-outline"></ion-icon>';
     return true;
 }
+
+const validatePhone = () => {
+    const phone = document.querySelector('#phone').value;
+
+    if (phone.lenght == 0) {
+        phoneError.innerHTML = 'Требуется номер';
+        return false;
+    }
+
+    if (phone.lenght !== 10) {
+        phoneError.innerHTML = '';
+        return false;
+    }
+}
