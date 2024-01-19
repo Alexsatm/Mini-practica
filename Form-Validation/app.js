@@ -12,7 +12,7 @@ const validateName = () => {
         return false;
     }
 
-    if (!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)) {
+    if (!name.match(/^([a-zа-яё\ ]+|\d+)$/ig)) {
         nameError.innerHTML = 'Напишите полное имя';
         return false;
     }
