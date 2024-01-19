@@ -29,7 +29,15 @@ const validatePhone = () => {
     }
 
     if (phone.lenght !== 10) {
-        phoneError.innerHTML = '';
+        phoneError.innerHTML = 'Номер должен быть больше 10 цифр';
         return false;
     }
+
+    if (!phone.match(/^[0-9]{10}$/)) {
+        phoneError.innerHTML = 'Неверно';
+        return false;
+    }
+
+    phoneError.innerHTML = '<ion-icon name="checkmark-circle-outline"></ion-icon>';
+    return true;
 }
