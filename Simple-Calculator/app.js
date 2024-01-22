@@ -30,3 +30,8 @@ function onOperationBtnClick(e){
     let operation = clickedElement.innerHTML;
     makeOperation(operation);
 }
+
+for (let i = 0; i < operationBtns.length; i++) {
+    let btn = operationBtns[i]
+    btn.addEventListener('click', onOperationBtnClick);
+}
