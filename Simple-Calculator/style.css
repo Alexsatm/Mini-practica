@@ -46,7 +46,30 @@ body{
     transition: transform all 0.8s;
 }
 
-button:hover{
+button:hover {
     transform: scale(0.98);
     transition: transform all 0.8s;
+}
+
+.input-block{
+    display: inline-block;
+    padding: 10px;
+}
+
+.input-block label {
+    display:block;
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.input-block input {
+    color: #5c5c5c;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    width: 230px;
+    height: 45px;
+    font-size: 25px;
+    accent-color: #2aa237;
 }
