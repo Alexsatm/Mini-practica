@@ -24,3 +24,9 @@ function makeOperation(operationCode){
         result.innerHTML = number1 % number2;
     }
 }
+
+function onOperationBtnClick(e){
+    let clickedElement = e.currentTarget;
+    let operation = clickedElement.innerHTML;
+    makeOperation(operation);
+}
