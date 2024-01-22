@@ -4,3 +4,30 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+body{
+    background-color: #bbb;
+    color: aliceblue;
+}
+
+.js-calculator {
+    width: 530px;
+    height: 280px;
+    margin: 250px auto;
+    background-color: #18513b;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.result {
+    color: #8b8b8b;
+    width: 200px;
+    background-color: white;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
