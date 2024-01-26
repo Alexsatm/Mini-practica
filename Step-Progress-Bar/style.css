@@ -19,22 +19,60 @@ body {
 }
 
 .html {
-    font-size: 1.8rem;
+    font-size: 3rem;
     color:darkorange;
 }
 
 .css {
-    font-size: 1.8rem;
+    font-size: 3rem;
     color: dodgerblue;
 }
 
 .js {
-    font-size: 1.8rem;
+    font-size: 3rem;
     color: gold;
 }
 
 .react {
-    font-size: 1.8rem;
+    font-size: 3rem;
     color: cyan;
 }
 
+
+.container {
+    text-align: center;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 30px;
+    max-width: 100%;
+    width: 500px;
+}
+
+.progress-container::before {
+    content: '';
+    background-color: var(--line-border-empty);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 100%;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+.progress {
+    background-color: var(--line-border-fill);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 4px;
+    width: 0%;
+    z-index: -1;
+    transition: 0.4s;
+}
