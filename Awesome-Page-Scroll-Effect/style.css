@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -8,15 +7,28 @@
     font-family: 'PT Serif', serif;
 }
 
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
 section {
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    scroll-snap-align: start;
+}
+
+h1 {text-align: center;
+    font-size: 80px;
+    color: #fff;
+    text-shadow: 1px 1px 4px #000;
 }
 
 .one {
-    background-color: darkkhaki;
+    background-color: #cfc11c;
 }
 
 .two {
