@@ -7,3 +7,4 @@
 6. Scroll Animation - https://alexsatm.github.io/Mini-practica/Scroll-Animation/
 7. Form Validation - https://alexsatm.github.io/Mini-practica/Form-Validation/
 8. Simple Calculator - https://alexsatm.github.io/Mini-practica/Simple-Calculator/
+9. Awesome Page Scroll Effect - https://alexsatm.github.io/Mini-practica/Awesome-Page-Scroll-Effect/
