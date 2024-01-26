@@ -1,0 +1,40 @@
+:root {
+    --line-border-fill: #9c27b0;
+    --line-border-empty: #bdbdbd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.html {
+    font-size: 1.8rem;
+    color:darkorange;
+}
+
+.css {
+    font-size: 1.8rem;
+    color: dodgerblue;
+}
+
+.js {
+    font-size: 1.8rem;
+    color: gold;
+}
+
+.react {
+    font-size: 1.8rem;
+    color: cyan;
+}
+
