@@ -18,6 +18,11 @@ body {
     overflow: hidden;
 }
 
+h1 {
+    color: #212121;
+    margin-bottom: 90px;
+}
+
 .html {
     font-size: 3rem;
     color:darkorange;
@@ -37,7 +42,6 @@ body {
     font-size: 3rem;
     color: cyan;
 }
-
 
 .container {
     text-align: center;
@@ -93,4 +97,29 @@ body {
 
 .circle.active {
     border-color: var(--line-border-fill);
+}
+
+.btn {
+    background-color: var(--line-border-fill);
+    color: #fff;
+    border-radius: 6px;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 8px 30px;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:active {
+    transform: scale(0.97);
+}
+
+.btn:disabled {
+    background-color: var(--line-border-empty);
+    cursor: not-allowed;
 }
