@@ -1,5 +1,5 @@
 :root {
-    --line-border-fill: #9c27b0;
+    --line-border-fill: #42b027;
     --line-border-empty: #bdbdbd;
 }
 
@@ -107,7 +107,7 @@ h1 {
     cursor: pointer;
     font-family: inherit;
     padding: 8px 30px;
-    font-size: 14px;
+    font-size: 18px;
     margin: 5px;
 }
 
