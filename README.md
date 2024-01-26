@@ -8,4 +8,4 @@
 7. Form Validation - https://alexsatm.github.io/Mini-practica/Form-Validation/
 8. Simple Calculator - https://alexsatm.github.io/Mini-practica/Simple-Calculator/
 9. Awesome Page Scroll Effect - https://alexsatm.github.io/Mini-practica/Awesome-Page-Scroll-Effect/
-10. Step Progress Bar - https://alexsatm.github.io/Step-Progress-Bar/
+10. Step Progress Bar - https://alexsatm.github.io/Mini-practica/Step-Progress-Bar/
