@@ -22,6 +22,22 @@ function loadSong (song) {
     cover.src = `img/${song}.jpg`;
 }
 
+function playSong () {
+    musicContainer.classList.add('play')
+    playBtn.querySelector('.play').style.display = 'none';
+    playBtn.querySelector('.pause').style.display = 'block';
+
+    audio.play()
+}
+
+function pauseSong () {
+    musicContainer.classList.remove('play');
+    playBtn.querySelector('.play').style.display = 'block';
+    playBtn.querySelector('.pause').style.display = 'none';
+
+    audio.pause();
+}
+
 //event listenner
 playBtn.addEventListener('click', () => {
     const isPlaying = musicContainer.classList.contains('play');
@@ -33,10 +49,6 @@ playBtn.addEventListener('click', () => {
     }
 })
 
-function playSong () {
-    musicContainer.classList.add('play')
-    playBtn.querySelector('.play').style.display = 'none';
-    playBtn.querySelector('.pause').style.display = 'block';
-
-    audio.play()
-}
+//change song
+prevBtn.addEventListener('click', prevBtn);
+nextBtn.addEventListener('click', nextBtn);
