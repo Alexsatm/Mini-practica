@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Player</title>
+    <!-- icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!--  -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,7 +22,7 @@
             </div>
         </div>
 
-        <audio src="" id="audio"></audio>
+        <audio src="audio/audio-1.mp3" id="audio"></audio>
 
         <div class="img-container">
             <img src="" alt="" id="music-cover">
@@ -26,15 +30,15 @@
 
         <div class="navigation">
             <button id="prev" class="action-btn">
-
+                <ion-icon name="play-back-outline"></ion-icon>
             </button>
 
             <button id="play" class="action-btn action-btn-big">
-
+                <ion-icon name="play-forward-outline"></ion-icon>
             </button>
 
             <button id="next" class="action-btn">
-
+                <ion-icon name="play-forward-outline"></ion-icon>
             </button>
         </div>
     </div>
