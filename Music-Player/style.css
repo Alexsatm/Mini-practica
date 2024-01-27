@@ -16,3 +16,35 @@ body {
      align-items: center;
      justify-content: center;
 }
+
+.container {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 20px 20 0 rgba(252, 169, 169, 0.6);
+    display: flex;
+    padding: 20px 30px;
+    position: relative;
+    margin: 100px 0;
+    z-index: 10;
+}
+
+.img-container {
+    position: relative;
+    width: 110px;
+}
+
+.img-container img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 110px;
+    width: inherit;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: rotate 3s linear infinite;
+    animation-play-state: paused;
+}
+
+.container.play .img-container img {
+    animation-play-state: running;
+}
