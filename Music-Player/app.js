@@ -25,4 +25,18 @@ function loadSong (song) {
 
 playBtn.addEventListener('click', () => {
     const isPlaying = musicContainer.classList.contains('play');
+
+    if(isPlaying) {
+        pauseSong();
+    }else {
+        playSong();
+    }
 })
+
+function playSong () {
+    musicContainer.classList.add('play')
+    playBtn.querySelector('ion-icon.fas').classList.remove('play');
+    playBtn.querySelector('ion-icon.fas').classList.add('pause')
+
+    audio.play()
+}
