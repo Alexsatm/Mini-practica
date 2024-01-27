@@ -18,26 +18,25 @@ loadSong(songs[songIndex])
 
 function loadSong (song) {
     title.innerText = song;
-    audio.src = `music/${song}.mp3`;
+    audio.src = `audio/${song}.mp3`;
     cover.src = `img/${song}.jpg`;
 }
 
 //event listenner
-
 playBtn.addEventListener('click', () => {
     const isPlaying = musicContainer.classList.contains('play');
 
     if(isPlaying) {
         pauseSong();
-    }else {
+    } else {
         playSong();
     }
 })
 
 function playSong () {
     musicContainer.classList.add('play')
-    playBtn.querySelector('ion-icon.fas').classList.remove('play');
-    playBtn.querySelector('ion-icon.fas').classList.add('pause')
+    playBtn.querySelector('.play').style.display = 'none';
+    playBtn.querySelector('.pause').style.display = 'block';
 
     audio.play()
 }
