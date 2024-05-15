@@ -10,3 +10,4 @@
 9. Awesome Page Scroll Effect - https://alexsatm.github.io/Mini-practica/Awesome-Page-Scroll-Effect/
 10. Step Progress Bar - https://alexsatm.github.io/Mini-practica/Step-Progress-Bar/
 11. Music Player - https://alexsatm.github.io/Mini-practica/Music-Player/
+12. Weather - https://alexsatm.github.io/Mini-practica/Weather/
