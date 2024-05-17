@@ -12,3 +12,5 @@
 11. Music Player - https://alexsatm.github.io/Mini-practica/Music-Player/
 12. Weather - https://alexsatm.github.io/Mini-practica/Weather/
 13. Todo list - https://alexsatm.github.io/Mini-practica/To-do-list/
+14. Quiz - https://alexsatm.github.io/Mini-practica/Quiz/
+15. Random Password Generator - https://alexsatm.github.io/Mini-practica/RandomPasswordGenerator/
