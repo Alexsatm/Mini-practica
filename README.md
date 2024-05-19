@@ -14,3 +14,5 @@
 13. Todo list - https://alexsatm.github.io/Mini-practica/To-do-list/
 14. Quiz - https://alexsatm.github.io/Mini-practica/Quiz/
 15. Random Password Generator - https://alexsatm.github.io/Mini-practica/RandomPasswordGenerator/
+16. Notes - https://alexsatm.github.io/Mini-practica/Notes/
+17. QR-Code-Generator - https://alexsatm.github.io/Mini-practica/QR-Code-Generator/
