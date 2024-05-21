@@ -16,3 +16,5 @@
 15. Random Password Generator - https://alexsatm.github.io/Mini-practica/RandomPasswordGenerator/
 16. Notes - https://alexsatm.github.io/Mini-practica/Notes/
 17. QR-Code-Generator - https://alexsatm.github.io/Mini-practica/QR-Code-Generator/
+18. Stopwatch - https://alexsatm.github.io/Mini-practica/Stopwatch/
+19. Cards-Galery - https://alexsatm.github.io/Mini-practica/Cards-Galery/
