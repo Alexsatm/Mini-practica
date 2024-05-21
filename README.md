@@ -18,3 +18,4 @@
 17. QR-Code-Generator - https://alexsatm.github.io/Mini-practica/QR-Code-Generator/
 18. Stopwatch - https://alexsatm.github.io/Mini-practica/Stopwatch/
 19. Cards-Galery - https://alexsatm.github.io/Mini-practica/Cards-Galery/
+20. Best-Slaider - https://alexsatm.github.io/Mini-practica/Best-Slaider/
