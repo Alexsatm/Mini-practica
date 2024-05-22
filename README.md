@@ -20,3 +20,4 @@
 19. Cards-Galery - https://alexsatm.github.io/Mini-practica/Cards-Galery/
 20. Best-Slaider - https://alexsatm.github.io/Mini-practica/Best-Slaider/
 21. Digital-Clock - https://alexsatm.github.io/Mini-practica/Digital-Clock/
+22. Mini-color-game - https://alexsatm.github.io/Mini-practica/Mini-color-game/
